@@ -98,8 +98,17 @@
       "name": "Samosa",
       "price": 90,
       "quantity": 100,
-      "category": "Drinks",
+      "category": "Main Course",
       "description": "Spicy Samosa",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fsamosas&psig=AOvVaw38OQHjy5-RSG0hUVCNBvtQ&ust=1761418556323000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCK7NLBvZADFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": "9",
+      "name": "Meat pie",
+      "price": 30,
+      "quantity": 100,
+      "category": "Drinks",
+      "description": "Refreshing cofee or Tea",
       "image": "https://media.istockphoto.com/id/1371317396/photo/assortment-of-hard-strong-alcoholic-drinks-and-spirits.jpg?s=612x612&w=0&k=20&c=nH5UFeng_BwbrXrnULOSNQxF2vCKEk8V42AKOST4shY="
     }
   ],
