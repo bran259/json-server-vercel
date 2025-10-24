@@ -128,6 +128,15 @@
       "category": "Main Course",
       "description": "Baked pork knuckle with potatoes and cheese ",
       "image": "https://media.istockphoto.com/id/2182839885/photo/baked-pork-knuckle-with-potatoes-and-cheese-sauce-on-the-cutting-board.webp?s=2048x2048&w=is&k=20&c=CKo5_46xjtRWQtrJD76neR2K5sd0OZkc-_JYwZYeAmc="
+    },
+    {
+      "id": "12",
+      "name": "Shawarma",
+      "price": 300,
+      "quantity": 300,
+      "category": "Main Course",
+      "description": "burrito and shawarma wraps with beef and pork vegetables on wooden table",
+      "image": "https://media.istockphoto.com/id/1079279000/photo/burrito-and-shawarma-wraps-with-beef-and-pork-vegetables-on-wooden-table-copy-space-for-text.webp?s=2048x2048&w=is&k=20&c=MIAKyp5VmZ5fQhf1u8_8M3iZ9D7c48MoJGbuHLeAToU="
     }
   ],
   "orders": [
