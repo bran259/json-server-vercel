@@ -33,7 +33,7 @@
     {
       "id": "1",
       "name": "Burger",
-      "price": 60,
+      "price": 320,
       "quantity": 30,
       "category": "Snacks",
       "description": "Fresh beef burger with lettuce and cheese",
@@ -42,7 +42,7 @@
     {
       "id": "2",
       "name": "Fries",
-      "price": 40,
+      "price": 150,
       "quantity": 50,
       "category": "Snacks",
       "description": "Crispy golden fries",
@@ -51,7 +51,7 @@
     {
       "id": "3",
       "name": "Pasta",
-      "price": 80,
+      "price": 200,
       "quantity": 20,
       "category": "Main Course",
       "description": "Creamy Alfredo pasta",
@@ -60,7 +60,7 @@
     {
       "id": "4",
       "name": "Pizza Slice",
-      "price": 90,
+      "price": 250,
       "quantity": 25,
       "category": "Main Course",
       "description": "Cheesy Margherita slice",
@@ -69,7 +69,7 @@
     {
       "id": "5",
       "name": "Iced Coffee",
-      "price": 50,
+      "price": 300,
       "quantity": 40,
       "category": "Drinks",
       "description": "Cold brew with milk and ice",
@@ -78,7 +78,7 @@
     {
       "id": "6",
       "name": "Soft Drink",
-      "price": 30,
+      "price": 150,
       "quantity": 100,
       "category": "Drinks",
       "description": "Refreshing cola or lemon soda",
@@ -87,7 +87,7 @@
     {
       "id": "7",
       "name": "Bevarages",
-      "price": 30,
+      "price": 205,
       "quantity": 100,
       "category": "Drinks",
       "description": "Refreshing cofee or Tea",
@@ -96,7 +96,7 @@
     {
       "id": "8",
       "name": "Samosa",
-      "price": 30,
+      "price": 90,
       "quantity": 100,
       "category": "Drinks",
       "description": "Spicy Samosa",
