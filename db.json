@@ -2,243 +2,312 @@
   "users": [
     {
       "id": "1",
-      "name": "Admin User",
+      "name": "Admin",
       "email": "admin@canteen.com",
       "password": "admin123",
       "role": "admin"
     },
     {
       "id": "2",
-      "name": "Elvin",
-      "email": "elvin@student.com",
-      "password": "elvin123",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "123456",
       "role": "customer"
     },
     {
-      "id": "e1fb",
-      "name": "brian",
+      "id": 3,
+      "name": "bran",
       "email": "bran@gmail.com",
       "password": "1234567",
-      "role": "user"
+      "role": "customer"
     },
     {
-      "id": "1f4a",
-      "name": "brian",
-      "email": "bran@gmail.com",
-      "password": "10928374",
-      "role": "admin"
+      "id": 4,
+      "name": "dorine",
+      "email": "dorine@gmail.com",
+      "password": "qwerty",
+      "role": "customer"
+    },
+    {
+      "id": 5,
+      "name": "elvin",
+      "email": "elvin@gmail.com",
+      "password": "zxcvb",
+      "role": "customer"
     }
   ],
   "menu": [
     {
       "id": "1",
-      "name": "Burger",
-      "price": 320,
-      "quantity": 30,
-      "category": "Snacks",
-      "description": "Fresh beef burger with lettuce and cheese",
-      "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1469"
+      "name": "Chapati",
+      "price": 25,
+      "category": "Breakfast",
+      "image": "https://images.unsplash.com/photo-1708782343717-be4ea260249a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hhcGF0aXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000",
+      "stock": 98
     },
     {
       "id": "2",
-      "name": "Fries",
-      "price": 150,
-      "quantity": 50,
-      "category": "Snacks",
-      "description": "Crispy golden fries",
-      "image": "https://static.vecteezy.com/system/resources/thumbnails/027/536/411/small/delicious-french-fries-on-a-white-background-photo.jpg"
+      "name": "Rice & Beans",
+      "price": 80,
+      "category": "Lunch",
+      "image": "https://media.istockphoto.com/id/491515682/photo/rice-and-beans.webp?s=2048x2048&w=is&k=20&c=wdioyhpfp7a4Gao_KycheRAWoAfS8Vcs7n8YNdCjEdA=",
+      "stock": 55
     },
     {
       "id": "3",
-      "name": "Pasta",
-      "price": 200,
-      "quantity": 20,
-      "category": "Main Course",
-      "description": "Creamy Alfredo pasta",
-      "image": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19739.jpg?semt=ais_hybrid&w=740&q=80"
+      "name": "Ugali & Fish",
+      "price": 120,
+      "category": "Lunch",
+      "image": "https://media.istockphoto.com/id/2240226620/photo/banku-smooth-fermented-corn-and-cassava-dough-served-with-grilled-tilapia-and-pepper-sauce.webp?s=2048x2048&w=is&k=20&c=V7QkrYDS77CC4GgpV0ScEX1Sm88lelffWaqqxJ9F8ro=",
+      "stock": 29
     },
     {
       "id": "4",
-      "name": "Pizza Slice",
-      "price": 250,
-      "quantity": 25,
-      "category": "Main Course",
-      "description": "Cheesy Margherita slice",
-      "image": "https://t4.ftcdn.net/jpg/09/88/11/13/360_F_988111369_PxMp15vF2BC4whQx9K5iZfAfofCABgAR.jpg"
+      "name": "Mandazi",
+      "price": 15,
+      "category": "Breakfast",
+      "image": "https://media.istockphoto.com/id/1635108776/photo/odading-or-galundeng-is-a-traditional-sweet-made-from-flour-and-sugar-and-process-in-deep.webp?s=2048x2048&w=is&k=20&c=CVRqIN-6MK07XIJpR1YiNPBXQGw2jy_Mo4RN-qdyDWk=",
+      "stock": 79
     },
     {
       "id": "5",
-      "name": "Iced Coffee",
-      "price": 300,
-      "quantity": 40,
-      "category": "Drinks",
-      "description": "Cold brew with milk and ice",
-      "image": "https://realfood.tesco.com/media/images/RFO-1400x919-IcedCoffee-76221116-2565-4103-9899-89571028018e-0-1400x919.jpg"
+      "name": "Chicken Stew",
+      "price": 150,
+      "category": "Dinner",
+      "image": "https://images.unsplash.com/photo-1708782344490-9026aaa5eec7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=880",
+      "stock": 23
     },
     {
       "id": "6",
-      "name": "Soft Drink",
-      "price": 150,
-      "quantity": 100,
-      "category": "Drinks",
-      "description": "Refreshing cola or lemon soda",
-      "image": "https://media.istockphoto.com/id/504754220/photo/cocktails.jpg?s=612x612&w=0&k=20&c=NxIzGT-LbUS0BAPoCMDY3mEp96AnIxxldbWmFMeeD-A="
+      "name": "Tea",
+      "price": 10,
+      "category": "Beverage",
+      "image": "https://images.unsplash.com/photo-1745494807489-da4780745194?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687",
+      "stock": 198
     },
     {
-      "id": "7",
-      "name": "Bevarages",
-      "price": 205,
-      "quantity": 100,
-      "category": "Drinks",
-      "description": "Refreshing cofee or Tea",
-      "image": "https://media.istockphoto.com/id/1371317396/photo/assortment-of-hard-strong-alcoholic-drinks-and-spirits.jpg?s=612x612&w=0&k=20&c=nH5UFeng_BwbrXrnULOSNQxF2vCKEk8V42AKOST4shY="
+      "id": 7,
+      "name": "Burger",
+      "price": 125,
+      "category": "Breakfast",
+      "stock": 34,
+      "image": "https://media.istockphoto.com/id/467416670/photo/huge-grass-fed-bison-hamburger-with-chips-beer.webp?s=2048x2048&w=is&k=20&c=2lQhuYKuABeKPU1W1faKAQIcBtBFB7Ln1VKBKQUFpMc="
     },
     {
       "id": "8",
-      "name": "Samosa",
-      "price": 90,
-      "quantity": 100,
-      "category": "Main Course",
-      "description": "Spicy Samosa",
-      "image": "https://media.istockphoto.com/id/1400083547/photo/fried-samosas-with-vegetable-filling-popular-indian-snacks-on-wooden-board.webp?s=2048x2048&w=is&k=20&c=36XcIemeBjOZ6GO-LbEcqfBJyrY25kP3-BeKcvD6aso="
+      "name": "Fries",
+      "price": 200,
+      "category": "Snacks",
+      "stock": 58,
+      "image": "https://media.istockphoto.com/id/1031570852/photo/crispy-potato-waffles-fries-with-ketchup-on-white-wooden-board.webp?s=2048x2048&w=is&k=20&c=Kdy4qs5WG9XJ5a8o_kGQGr8gqcxsEvMNJUTnHINqhps="
     },
     {
       "id": "9",
-      "name": "Meat pie",
-      "price": 300,
-      "quantity": 100,
+      "name": "Pasta",
+      "price": 800,
       "category": "Main Course",
-      "description": "Type of Meat",
-      "image": "https://media.istockphoto.com/id/521954007/photo/homemade-stuffed-chicken-empanadas.webp?s=2048x2048&w=is&k=20&c=DQg7m8GsJ7hAuB1FOwVzF7_o0DbBKXhDjI66_Gm5nZM="
+      "stock": 59,
+      "image": "https://media.istockphoto.com/id/2190261791/photo/classic-italian-pasta-penne-alla-arrabiata-with-basil-and-freshly-grated-parmesan-cheese-on.webp?s=2048x2048&w=is&k=20&c=b4zdOKy_4zuDPr7GLSieETYa8BMR053swEtp5_Cnpp8="
     },
     {
       "id": "10",
-      "name": "Chicken",
-      "price": 450,
-      "quantity": 100,
+      "name": "Pizza Slice",
+      "price": 320,
       "category": "Main Course",
-      "description": "Cripsy fried Chicken in Basket",
-      "image": "https://media.istockphoto.com/id/1408338331/photo/crispy-fried-chicken-in-the-basket.webp?s=2048x2048&w=is&k=20&c=miEdeYJSs086bpDpMoJvHPE2MDy-HQZJUPIpOe4NyKc="
+      "stock": 66,
+      "image": "https://media.istockphoto.com/id/2156049905/photo/four-different-types-of-pizza-arranged-in-the-form-of-pizza.webp?s=2048x2048&w=is&k=20&c=ZjJNBWIxI0oc0TMY_eNMY5U5ajTLOb6U4EeggofMXK4="
     },
     {
       "id": "11",
-      "name": "Pork",
-      "price": 555,
-      "quantity": 300,
-      "category": "Main Course",
-      "description": "Baked pork knuckle with potatoes and cheese ",
-      "image": "https://media.istockphoto.com/id/2182839885/photo/baked-pork-knuckle-with-potatoes-and-cheese-sauce-on-the-cutting-board.webp?s=2048x2048&w=is&k=20&c=CKo5_46xjtRWQtrJD76neR2K5sd0OZkc-_JYwZYeAmc="
+      "name": "Soft Drink",
+      "price": 32,
+      "category": "Drinks",
+      "stock": 20,
+      "image": "https://media.istockphoto.com/id/504754220/photo/cocktails.jpg?s=612x612&w=0&k=20&c=NxIzGT-LbUS0BAPoCMDY3mEp96AnIxxldbWmFMeeD-A="
     },
     {
       "id": "12",
-      "name": "Shawarma",
-      "price": 300,
-      "quantity": 300,
-      "category": "Main Course",
-      "description": "burrito and shawarma wraps with beef and pork vegetables on wooden table",
-      "image": "https://media.istockphoto.com/id/1079279000/photo/burrito-and-shawarma-wraps-with-beef-and-pork-vegetables-on-wooden-table-copy-space-for-text.webp?s=2048x2048&w=is&k=20&c=MIAKyp5VmZ5fQhf1u8_8M3iZ9D7c48MoJGbuHLeAToU="
+      "name": "Coffee",
+      "price": 28,
+      "category": "Drinks",
+      "stock": 20,
+      "image": "https://media.istockphoto.com/id/177307185/photo/milk.webp?s=2048x2048&w=is&k=20&c=1HJ-CyLPRlZcRzLScjSp_0fxFSGEsxsl9k52apB1VdI="
+    },
+    {
+      "id": "13",
+      "name": "Apple",
+      "price": 150,
+      "category": "Fruits",
+      "stock": 34,
+      "image": "https://media.istockphoto.com/id/145837669/photo/fruits.webp?s=2048x2048&w=is&k=20&c=rO49pdaW0iwtBqNG5Z3jpqUX-BOKhoZUhNEDKZXUtYw="
     }
   ],
   "orders": [
     {
       "id": "1",
       "userId": 2,
-      "date": "2025-10-23",
+      "items": [
+        {
+          "menuId": 2,
+          "quantity": 1,
+          "name": "Rice & Beans",
+          "price": 80
+        }
+      ],
       "status": "Delivered",
-      "totalAmount": 130
+      "total": 80,
+      "payment": "cash",
+      "date": "2025-10-29T10:30:00.000Z"
     },
     {
-      "id": "2",
-      "userId": 2,
-      "date": "2025-10-23",
+      "id": 2,
+      "userId": 3,
+      "items": [
+        {
+          "menuId": "1",
+          "quantity": 1,
+          "name": "Chapati",
+          "price": 20
+        }
+      ],
       "status": "Pending",
-      "totalAmount": 90
+      "total": 20,
+      "payment": "cash",
+      "date": "2025-10-29T12:29:37.929Z"
     },
     {
-      "id": "886e",
-      "userId": "e1fb",
-      "date": "2025-10-23T13:00:43.088Z",
+      "id": 3,
+      "userId": 3,
+      "items": [
+        {
+          "menuId": "2",
+          "quantity": 3,
+          "name": "Rice & Beans",
+          "price": 80
+        }
+      ],
       "status": "Pending",
-      "totalAmount": 30
+      "total": 240,
+      "payment": "online",
+      "date": "2025-10-29T12:30:36.656Z"
     },
     {
-      "id": "a84f",
-      "userId": "e1fb",
-      "date": "2025-10-23T14:16:07.197Z",
+      "id": 4,
+      "userId": 4,
+      "items": [
+        {
+          "menuId": "1",
+          "quantity": 1,
+          "name": "Chapati",
+          "price": 25
+        },
+        {
+          "menuId": "4",
+          "quantity": 1,
+          "name": "Mandazi",
+          "price": 15
+        },
+        {
+          "menuId": "3",
+          "quantity": 1,
+          "name": "Ugali & Fish",
+          "price": 120
+        },
+        {
+          "menuId": "6",
+          "quantity": 1,
+          "name": "Tea",
+          "price": 10
+        },
+        {
+          "menuId": "5",
+          "quantity": 1,
+          "name": "Chicken Stew",
+          "price": 150
+        },
+        {
+          "menuId": "13",
+          "quantity": 1,
+          "name": "Apple",
+          "price": 150
+        }
+      ],
       "status": "Pending",
-      "totalAmount": 30
+      "total": 470,
+      "payment": "cash",
+      "date": "2025-10-29T18:17:57.510Z"
     },
     {
-      "id": "7c5e",
-      "userId": "1f4a",
-      "date": "2025-10-23T18:33:03.792Z",
+      "id": 5,
+      "userId": 5,
+      "items": [
+        {
+          "menuId": "6",
+          "quantity": 1,
+          "name": "Tea",
+          "price": 10
+        },
+        {
+          "menuId": "5",
+          "quantity": 1,
+          "name": "Chicken Stew",
+          "price": 150
+        },
+        {
+          "menuId": "8",
+          "quantity": 2,
+          "name": "Fries",
+          "price": 200
+        },
+        {
+          "menuId": "9",
+          "quantity": 1,
+          "name": "Pasta",
+          "price": 800
+        }
+      ],
       "status": "Pending",
-      "totalAmount": 60
-    },
-    {
-      "id": "92e7",
-      "userId": "e1fb",
-      "date": "2025-10-23T20:41:52.484Z",
-      "status": "Pending",
-      "totalAmount": 90
-    }
-  ],
-  "orderDetails": [
-    {
-      "id": "1",
-      "orderId": 1,
-      "itemId": 1,
-      "quantity": 1
-    },
-    {
-      "id": "2",
-      "orderId": 1,
-      "itemId": 2,
-      "quantity": 1
-    },
-    {
-      "id": "3",
-      "orderId": 2,
-      "itemId": 4,
-      "quantity": 1
-    },
-    {
-      "id": "e6e7",
-      "orderId": "886e",
-      "itemId": "6",
-      "quantity": 1
-    },
-    {
-      "id": "5825",
-      "orderId": "a84f",
-      "itemId": "6",
-      "quantity": 1
-    },
-    {
-      "id": "f478",
-      "orderId": "7c5e",
-      "itemId": "1",
-      "quantity": 1
-    },
-    {
-      "id": "b6c4",
-      "orderId": "92e7",
-      "itemId": "4",
-      "quantity": 1
+      "total": 1360,
+      "payment": "online",
+      "date": "2025-10-29T18:28:29.154Z"
     }
   ],
   "payments": [
     {
       "id": "1",
       "orderId": 1,
-      "mode": "Cash",
-      "status": "Paid"
+      "amount": 80,
+      "mode": "cash",
+      "status": "confirmed"
     },
     {
-      "id": "2",
+      "id": 2,
       "orderId": 2,
-      "mode": "Online",
-      "status": "Pending"
+      "amount": 20,
+      "mode": "cash",
+      "status": "confirmed"
+    },
+    {
+      "id": 3,
+      "orderId": 3,
+      "amount": 240,
+      "mode": "online",
+      "status": "confirmed"
+    },
+    {
+      "id": 4,
+      "orderId": 4,
+      "amount": 470,
+      "mode": "cash",
+      "status": "confirmed"
+    },
+    {
+      "id": 5,
+      "orderId": 5,
+      "amount": 1360,
+      "mode": "online",
+      "status": "confirmed"
     }
-  ]
+  ],
+  "reports": []
 }
